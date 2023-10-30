@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  background-color: #f4f8fa;
+}
+.header__mobile {
+  margin-bottom: 24px;
+  background-color: #fff;
+  position: fixed;
+  /* margin-left: 400px; */
+  width: 100%;
+}
+.container {
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* --- Header start --- */
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 30px;
+  align-items: center;
+  gap: 50px;
+}
+ul li a {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header__order {
+  max-width: 556px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header__actions a {
+  padding: 2px 9px;
+  border: 1px solid gray;
+  color: rgba(0, 0, 0, 0.65);
+  border-radius: 5px;
+}
+/* --- Header end --- */
+
+/* --- section start --- */
+
+.home {
+  display: flex;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+fieldset {
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 50px;
+}
+form {
+  padding: 40px;
+}
+.brend .log {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.brend h1 {
+  display: flex;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: Segoe UI;
+  font-size: 29px;
+  font-weight: 700;
+}
+.brend .log-in {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0 56px;
+  color: #444150;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.log-in a {
+  margin-left: 14px;
+  color: #01bab3;
+}
+.texts {
+  display: flex;
+  justify-content: space-between;
+}
+.text-2 input {
+  margin-top: 8px;
+  padding-right: 50px;
+  padding: 10px 0;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+.text-1 input {
+  margin-top: 8px;
+  margin-right: 16px;
+  padding-right: 50px;
+  padding: 10px 0;
+}
+.data label {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.data input {
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+}
+.gender {
+  display: flex;
+  gap: 24px;
+}
+.about {
+  margin-top: 24px;
+}
+.about label {
+  margin-bottom: 8px;
+}
+.male {
+  display: flex;
+  padding: 10px 96px 14px 52px;
+  border: 1px solid black;
+}
+.male label {
+  margin-left: 16px;
+}
+.female {
+  display: flex;
+  padding: 10px 96px 14px 52px;
+  border: 1px solid black;
+}
+.female label {
+  margin-left: 16px;
+}
+.name {
+  display: flex;
+}
+.login label {
+  display: flex;
+}
+.login input {
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  padding: 10px 0;
+}
+.promo label {
+  display: flex;
+}
+.promo input {
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  padding: 10px 0;
+}
+.btn-con {
+  display: flex;
+  width: 100%;
+
+  margin-top: 24px;
+}
+.btn-con button {
+  display: flex;
+  width: 100%;
+  padding: 12px 0;
+  justify-content: center;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  background: #01bab3;
+}
+
+/* --- section end --- */
+footer {
+  margin-top: 64px;
+  margin-bottom: 25px;
+}
+footer p {
+  text-align: center;
+}

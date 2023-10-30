@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  background-color: #f4f8fa;
+}
+.header__mobile {
+  margin-bottom: 24px;
+  background-color: #fff;
+  position: fixed;
+  /* margin-left: 400px; */
+  width: 100%;
+}
+.container {
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* --- Header start --- */
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 30px;
+  align-items: center;
+  gap: 50px;
+}
+ul li a {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header__order {
+  max-width: 556px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header__actions a {
+  padding: 2px 9px;
+  border: 1px solid gray;
+  color: rgba(0, 0, 0, 0.65);
+  border-radius: 5px;
+}
+/* --- Header end --- */
+
+/* --- section start --- */
+
+.home {
+  display: flex;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+fieldset {
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 50px;
+}
+form {
+  padding: 40px;
+}
+.brend .log {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.brend h1 {
+  display: flex;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.85);
+  font-family: Segoe UI;
+  font-size: 29px;
+  font-weight: 700;
+}
+.brend .log-in {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0 56px;
+  color: #444150;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.log-in a {
+  margin-left: 14px;
+  color: #01bab3;
+}
+.texts {
+  display: block;
+  justify-content: space-between;
+}
+.text-2{
+  position: relative;
+}
+.text-2 p{
+  position: absolute;
+ bottom: 0px;
+  left: 10px;
+  padding: 5px 5px 15px 10px;
+border: none;
+border-right: 0.5px solid black;
+
+}
+.text-2 input {
+  display: block;
+  margin-top: 8px;
+  padding-right: 50px;
+  padding: 10px 0;
+  width: 100%;
+  padding-left: 50px;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+.text-1 input {
+display: block;
+  margin-top: 8px;
+  margin-right: 16px;
+  padding-right: 50px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.password{
+  position: relative;
+
+}
+.password input {
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+.password label{
+  display: flex;
+  align-items: center;
+}
+.password i{
+  position: absolute;
+  top: 38px;
+  right: 15px;
+}
+
+.btn-con {
+  display: flex;
+  width: 100%;
+
+  margin-top: 24px;
+}
+.btn-con button {
+  display: flex;
+  width: 100%;
+  padding: 12px 0;
+  justify-content: center;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  background: #01bab3;
+}
+
+/* --- section end --- */
+footer {
+  margin-top: 64px;
+  margin-bottom: 25px;
+}
+footer p {
+  text-align: center;
+}
